@@ -5,8 +5,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmb
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.chains import create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_classic.chains.retrieval import create_retrieval_chain        # ← 변경
+from langchain_classic.chains.combine_documents import create_stuff_documents_chain  # ← 변경
 from langchain_core.prompts import ChatPromptTemplate
 
 # --- 1. 페이지 설정 ---
