@@ -1,7 +1,10 @@
 streamlit
-langchain
-langchain-community
-langchain-core
-langchain-google-genai
-chromadb
 pypdf
+langchain==0.3.25
+langchain-core==0.3.65
+langchain-community==0.3.24
+langchain-classic
+langchain-google-genai==2.0.10
+langchain-text-splitters
+chromadb
+google-generativeai
